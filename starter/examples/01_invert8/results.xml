@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1777103384" />
+    <testcase name="test_invert8_basic" classname="test" file="/home/aymen/ttsky-verilog-template/starter/examples/01_invert8/test.py" lineno="5" time="0.0017344951629638672" sim_time_ns="3.0" ratio_time="1729.6098969072166" />
+  </testsuite>
+</testsuites>
