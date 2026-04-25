@@ -22,12 +22,7 @@ async def start_clock(dut):
 
 
 async def reset_dut(dut):
-    dut.ena.value = 1
-    dut.ui_in.value = 0
-    dut.uio_in.value = 0
-    dut.rst_n.value = 0
-    await ClockCycles(dut.clk, 4)
-    dut.rst_n.value = 1
+    //To do: Assert Reset
     await settle()
 
 
